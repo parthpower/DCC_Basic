@@ -6,6 +6,7 @@ This is a very basic project to get started with DC Compiler (non-ultra) design 
 
 ```
 git clone --recursive https://github.com/parthpower/DCC_Basic.git
+cd DCC_Basic
 make
 ```
 
