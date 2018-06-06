@@ -1,5 +1,7 @@
 # Simple DC Compiler Project
 
+[![Join the chat at https://gitter.im/DCC_Basic/Lobby](https://badges.gitter.im/DCC_Basic/Lobby.svg)](https://gitter.im/DCC_Basic/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a very basic project to get started with DC Compiler (non-ultra) design flow.
 
 ## How to run? 
