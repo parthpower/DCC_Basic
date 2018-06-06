@@ -47,6 +47,7 @@ vc_hdrs.h
 command.log
 filenames.log
 *.syn
+*.svf
 *.scandef
 *.mr
 ARCH/
