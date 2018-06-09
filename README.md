@@ -15,4 +15,4 @@ make
 
 Explore [dc_script.tcl](script/dc_script.tcl) to know more.
 
-The [ref](https://github.com/parthpower/ref) is a private submodule includes libraries.
+The [ref](https://github.com/parthpower/ref) is a private submodule which includes all the libraries.
