@@ -38,3 +38,6 @@ write -f verilog -o design_data/scanned.v
 report_timing > reports/seq_detect.rpt
 report_constraint -verbose > reports/seq_detect.cons
 ####################################################
+
+# Must exit to make it work with CI
+exit
