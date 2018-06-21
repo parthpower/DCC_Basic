@@ -1,5 +1,7 @@
 # Simple DC Compiler Project
 
+[![Join the chat at https://gitter.im/DCC_Basic/Lobby](https://badges.gitter.im/DCC_Basic/Lobby.svg)](https://gitter.im/DCC_Basic/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a very basic project to get started with DC Compiler (non-ultra) design flow. Also includes PrimeTime project to run static timing analysis.
 
 ## How to run? 
@@ -32,6 +34,7 @@ The constraint file for PrimeTime.
 ### [pt_script.tcl](script/pt_script.tcl) 
 The script to run PrimeTime.
 
-_Comment the `exit` at the end of the [dc_script.tcl](script/dc_script.tcl) and [pt_script.tcl](script/pt_script.tcl) if you want to run DC Compiler/PrimeTime in interactive mode once script is executed. It is included to help the Contineous Integration flow._
+## Note
+- Comment the `exit` at the end of the [dc_script.tcl](script/dc_script.tcl) and [pt_script.tcl](script/pt_script.tcl) if you want to run DC Compiler/PrimeTime in interactive mode once script is executed. It is included to help the Contineous Integration flow.
 
-__Note__: The [ref](https://github.com/parthpower/ref) is a private repo which includes all the library files. It will not be made public.
+- The [ref](https://github.com/parthpower/ref) is a private repo which includes all the library files. It will not be made public.
