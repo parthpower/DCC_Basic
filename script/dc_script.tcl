@@ -15,7 +15,7 @@ link
 
 # Applying Constraints
 ####################################################
-source -verbose script/constraint.con
+source -verbose script/dc_constraints.sdc
 
 # TODO: Add/Compile Scan Chain
 ####################################################
@@ -31,12 +31,12 @@ source -verbose script/constraint.con
 compile
 
 # Write netlist to ddc file and verilog file.
-write -f ddc -o design_data/scanned.ddc
-write -f verilog -o design_data/scanned.v
+write -f ddc -o design_data/$usr_design_name.ddc
+write -f verilog -o design_data/$usr_design_name.v
 
 # Reports
-report_timing > reports/seq_detect.rpt
-report_constraint -verbose > reports/seq_detect.cons
+report_timing > reports/dc_timing.rpt
+report_constraint -verbose > reports/dc_compile_constraints.cons
 ####################################################
 
 # Must exit to make it work with CI
